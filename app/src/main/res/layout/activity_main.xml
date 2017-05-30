@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.middyscafe.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:src="@drawable/middyscafe"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Information"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The BEST coffee shop in town! Pay us a visit and see for yourself!"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:fontFamily="sans-serif"
+        android:layout_margin="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="129 Josiah Tongogara, Bulawayo"
+        android:drawableLeft="@drawable/ic_location_on_black_24dp"
+        android:drawablePadding="5dp"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7:45AM - 4:00PM"
+        android:drawableLeft="@drawable/ic_access_time_black_24dp"
+        android:drawablePadding="5dp"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call 09 733 24"
+        android:drawableLeft="@drawable/ic_call_black_24dp"
+        android:drawablePadding="5dp"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginLeft="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Specialties"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:fontFamily="sans-serif-medium"
+        android:layout_margin="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Serves breakfast, lunch, coffee and drinks."
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="16dp"
+        />
+
+</LinearLayout>
